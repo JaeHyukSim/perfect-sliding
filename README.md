@@ -25,3 +25,8 @@
 ### 과정
 1. main.html에 sliding.html을 AJAX로 html을 가져온다. 즉, main의 sliding-area에 child로 html코드를 append한다
 2. 설정 정보를 mapping한다. 설정 정보는 default가 존재한다. sliding-id를 유일하게 준다. 중요한 것은 CSS 파일이 각 슬라이더에 1:1매칭되어야 한다는 것이다
+
+### 대표적인 기대효과
+1. 레이아웃 마음대로 바꾸기
+2. 어디든 위치시키기
+3. 코드 재사용하기
