@@ -1,0 +1,25 @@
+{
+    "list": [
+        {
+            "thumbnail": "https:\/\/api.cdn.visitjeju.net\/photomng\/imgpath\/201804\/30\/a00d104f-451a-4ad1-a89b-dcfbfa6ea3b9.jpg",
+            "information": "제주바다의 풍경이 그림같이 펼쳐진 곳!",
+            "id": 1887,
+            "title": "제주팡숑예래",
+            "evelPoint": 0.0
+        },
+        {
+            "thumbnail": "https:\/\/api.cdn.visitjeju.net\/photomng\/imgpath\/201804\/30\/9a7947f5-313d-40d9-bf07-e47725395c05.gif",
+            "information": "제주국제공항에서 차로 10분거리인 탑동에 위치한 제주팔레스호텔입니다.",
+            "id": 1886,
+            "title": "제주팔레스호텔",
+            "evelPoint": 0.0
+        },
+        {
+            "thumbnail": "https:\/\/api.cdn.visitjeju.net\/photomng\/imgpath\/201804\/30\/55a94373-db7e-471d-a38d-82db5f4c622a.jpg",
+            "information": "넓은 정원과 직접 체험할 수 있는 농장, 현대식 시설과 호텔식 서비스를 갖춘 제주파크랜드",
+            "id": 1885,
+            "title": "제주파크랜드",
+            "evelPoint": 0.0
+        }
+    ]
+}
