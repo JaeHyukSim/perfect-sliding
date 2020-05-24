@@ -1,6 +1,8 @@
 var constructor = ()=>{
     //data 반영하기 - cache된 데이터를 쓰기 편하게 가져온다
     var data = cacheData;
+    movingData.width = movingData.maxWidth;
+    movingData.height = movingData.maxHeight;
     var width = movingData.width;
     var height = movingData.height;
     var list = data.list;
@@ -19,7 +21,6 @@ var constructor = ()=>{
 
     //item div 결정하기 - using templating
     var slidingItem = document.querySelector('.sliding-item');
-    slidingItem.style.width = width * (len + 3) + "px";
     slidingItem.innerHTML = "";
     
     if(data.list[len-1].thumbnail === 'null' || !(data.list[len-1].thumbnail)){

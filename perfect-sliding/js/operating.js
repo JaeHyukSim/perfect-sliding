@@ -37,3 +37,18 @@ function timeoutOperation(){
     }
     movingData.timefunc = window.setTimeout(timeoutOperation,2000);
 };
+
+document.querySelector('.sliding-item').addEventListener('transitionend', (e)=>{
+    var leftValue = e.currentTarget.style.left;
+    leftValue = leftValue.toString();
+    leftValue = leftValue.substr(0,leftValue.indexOf('p'));
+    leftValue = parseInt(leftValue);
+    if(movingData.curPos === -1){
+        movingData.curPos = movingData.nextPos = movingData.len-1;
+        e.currentTarget.style.left = (leftValue + (-1 * movingData.len) * movingData.width) + 'px';
+    }else if(movingData.curPos === movingData.len){
+        movingData.curPos = movingData.nextPos = 0;
+        e.currentTarget.style.left = (leftValue + movingData.len*movingData.width) + 'px';
+    }
+    movingData.mode = 'true';
+});

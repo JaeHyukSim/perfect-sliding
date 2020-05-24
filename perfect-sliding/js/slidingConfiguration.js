@@ -8,6 +8,8 @@ var movingData ={
     playMode : 1,
     timefunc : 0,
     slidingCount : 3,
-    width: 1200,
-    height: 500
+    width: 0,
+    height: 0,
+    maxHeight : 500,
+    maxWidth : 1200
 };

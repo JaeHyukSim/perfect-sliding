@@ -90,4 +90,10 @@ var setSlidingImgAndList = ()=>{
         v.style.top = (height / 10) + 60 + 'px';
         v.style.left = 30 + (width/12) + 'px';
     });
+    slidingItem.style.width = width * (len + 3) + "px";
+    //slidingItem.style.left = -1 * width + 'px';
+    movingData.transLoc = 0;
+    movingData.curPos = 0;
+    movingData.nextPos = 0;
+    slidingItem.style.left = -1 * width + 'px';
 }
