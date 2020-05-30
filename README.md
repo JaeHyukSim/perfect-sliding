@@ -65,3 +65,7 @@ Flex Slider를 구현하는데 다양한 상황을 고려해서 좀 더 일반�
 ### 시연 영상
 
 -------------
+
+[보러가기!][link]
+
+[link]: https://www.youtube.com/watch?v=585NI8dSN0M "Go perfect-sliding"
